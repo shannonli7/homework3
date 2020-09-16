@@ -97,14 +97,9 @@ tbody tr:nth-child(even) {
   background: #D1D1D1;
 }
 
-tbody tr:hover td{
+tbody tr:hover{
   background: rgb(126,8,48,0.25);
 }
-
-tbody tr:hover th{
-  background: rgb(126,8,48,0.25);
-}
-
 
 *{
   font-family: Andika, sans-serif;
