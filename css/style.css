@@ -32,7 +32,7 @@ h1{
   /* font-weight: bold; */
   text-align: center;
   line-height: 2;
-  color: #B21F50;
+  color: #c12258;
 }
 
 caption{
@@ -59,10 +59,11 @@ table{
 }
 
 .colhead{
-  background-color: #7e0820;
+  background-color: #7e0830;
   color: #FFFFFF;
-  top: auto;
-  /* text-align: center; */
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
   padding: 10px;
   min-width: 125px;
   text-transform: uppercase;
@@ -88,13 +89,22 @@ tr{
   text-align: center;
 }
 
-tr:hover td{
-  background-color: rgb(126,8,48,0.25);
+tbody tr:nth-child(odd) {
+  background: transparent;
 }
 
-tr:hover th{
-  background-color: rgb(126,8,48,0.25);
+tbody tr:nth-child(even) {
+  background: #D1D1D1;
 }
+
+tbody tr:hover td{
+  background: rgb(126,8,48,0.25);
+}
+
+tbody tr:hover th{
+  background: rgb(126,8,48,0.25);
+}
+
 
 *{
   font-family: Andika, sans-serif;
@@ -108,13 +118,14 @@ thead tr:first-child th:last-child{
   border-radius: 0 10px 0 0;
 }
 
-tbody tr:nth-child(odd) {
-  background: transparent;
+tbody tr:last-child th:first-child{
+  border-radius: 0 0 0 10px;
 }
 
-tbody tr:nth-child(even) {
-  background: #D1D1D1;
+tbody tr:last-child td:last-child{
+  border-radius: 0 0 10px 0;
 }
+
 
 
 footer{
