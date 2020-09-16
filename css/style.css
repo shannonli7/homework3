@@ -10,12 +10,10 @@ Make sure to learn what the starter code does!!
 body{
   font-size: 16px;
   margin: 1.2em;
+  background: url("../images/pigeon_peace_icon.jpeg") #DDDDDD;
   background-position: center;
-  background-image: url("../images/pigeon_peace_icon.jpeg");
   background-size: cover;
-  background-color: #DCDCDC;
   background-repeat: no-repeat;
-  background-size: cover;
 }
 
 a:focus{
@@ -29,9 +27,10 @@ main{
 
 h1{
   font-size: 2em;
+  /* font-weight: bold; */
   text-align: center;
   line-height: 2;
-  color: #B92751;
+  color: #B21F50;
 }
 
 caption{
@@ -44,7 +43,7 @@ p{
 
 a{
   font-size: 16px;
-  color: #B92751;
+  color: #B21F50;
   text-decoration-line: underline;
   text-decoration-style: wavy;
 }
@@ -81,6 +80,8 @@ th{
   padding: 10px;
 }
 
+
+
 tr{
   text-align: center;
 }
@@ -93,9 +94,8 @@ tr:hover th{
   background-color: rgb(126,8,48, 0.25);
 }
 
-
 *{
-  font-family: 'Andika', sans-serif;
+  font-family: Andika, sans-serif;
 }
 
 thead tr:first-child th:first-child{
